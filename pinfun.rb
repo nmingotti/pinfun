@@ -4,7 +4,7 @@
 
 # Author: Dr. Nicola Mingotti.
 # License: The one used in FreeBSD. 
-# Thanks: 
+# Thanks: many people in FreeBSD Forum and freebsd-arm@freebsd.org.
 
 # -------- USAGE ---------------
 # #> ruby pinfun.rb 
@@ -47,8 +47,8 @@
 # OS is not aware of what it is => You can not use it from the OS
 # untill you configure the pin. (tentative explanation)
 
-
-require 'pry'
+# Decomment nex line for debugging 
+# require 'pry'
 
 # Data 
 # pin;name;offset;0;1;2;3;4;5;6;7;;
