@@ -10,7 +10,7 @@
 # #> ruby pinfun.rb 
 
 # ------ WHAT DOES IT DO -------- 
-# -] Simple script that print in output a table as: 
+# -] Simple script that prints in output a table as: 
 # -------------------------------------------------------------------
 # POS      NAME           Mode  Function             Setup  
 # -------------------------------------------------------------------
@@ -40,8 +40,8 @@
 # -] Add more comment
 # -] Convert comment from Italian to English
 
-# --- "X" output in Mode ---- 
-# When you see and "X" in colum "Mode" it means that the script 
+# --- "-" output in Mode ---- 
+# When you see and "-" in colum "Mode" it means that the script 
 # was not able to determine the current configuration of the pin.
 # This implies that the pin actually has a configuration, but the 
 # OS is not aware of what it is => You can not use it from the OS
