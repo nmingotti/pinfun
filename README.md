@@ -1,19 +1,20 @@
 # pinfun
 Prints out all pin configurations in a BeagleBone Black; works in FreeBSD
-# Author: Dr. Nicola Mingotti.
-# License: The one used in FreeBSD. 
-# Thanks: 
 
-# -------- USAGE ---------------
-# #> ruby pinfun.rb 
+Author: Dr. Nicola Mingotti.
+License: The one used in FreeBSD. 
+Thanks: 
 
-# ------ WHAT DOES IT DO -------- 
-# -] Simple script that print in output a table as: 
-# -------------------------------------------------------------------
-# POS      NAME           Mode  Function             Setup  
-# -------------------------------------------------------------------
-# ....
-# P.9.19   I2C2_SCL        3    I2C2_SCL                    
+ -------- USAGE ---------------
+ #> ruby pinfun.rb 
+
+ ------ WHAT DOES IT DO -------- 
+ -] Simple script that print in output a table as: 
+ -------------------------------------------------------------------
+ POS      NAME           Mode  Function             Setup  
+ -------------------------------------------------------------------
+ ....
+ P.9.19   I2C2_SCL        3    I2C2_SCL                    
 # P.9.20   I2C2_SDA        3    I2C2_SDA                    
 # P.9.21   UART2_TXD       3    ehrpwm0B                    
 # P.9.22   UART2_RXD       3    ehrpwm0A                    
