@@ -47,7 +47,7 @@
 # OS is not aware of what it is => You can not use it from the OS
 # untill you configure the pin. (tentative explanation)
 
-# Decomment nex line for debugging 
+# Decomment next line for debugging 
 # require 'pry'
 
 # Data 
