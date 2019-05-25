@@ -1,0 +1,8 @@
+#!/usr/local/bin/ruby
+# -*- mode: ruby -**
+
+require 'fileutils'
+
+FileUtils.cp "pinfun.rb", "/usr/local/bin/pinfun"
+
+
